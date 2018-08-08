@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: emulator
-        image: venkatarr/emulator
+        image: containeraizationregistry.azurecr.ior/emulator
         ports:
         - containerPort: 5000
         imagePullPolicy: Always
