@@ -16,9 +16,9 @@ spec:
     spec:
       containers:
       - name: emulator
-        image: containeraizationregistry.azurecr.io/emulator
+        image: 375310561132.dkr.ecr.ap-south-1.amazonaws.com/peopletech-repo
         ports:
         - containerPort: 5000
         imagePullPolicy: Always
       imagePullSecrets:
-      - name: mysecret
+      - name: ekssecret
