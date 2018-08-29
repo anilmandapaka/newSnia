@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: emulator
-        image: 375310561132.dkr.ecr.ap-south-1.amazonaws.com/peopletech-repo
+        image: 375310561132.dkr.ecr.ap-south-1.amazonaws.com/peopletech-repo:emulatoreks
         ports:
         - containerPort: 5000
         imagePullPolicy: Always
